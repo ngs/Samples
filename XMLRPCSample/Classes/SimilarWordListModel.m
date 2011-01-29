@@ -15,7 +15,7 @@
 //
 
 #import "SimilarWordListModel.h"
-#import <extThree20XMLRPC/extThree20XMLRPC.h>
+#import <extXMLRPC/extXMLRPC.h>
 
 @implementation SimilarWordListModel
 

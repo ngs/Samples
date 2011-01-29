@@ -23,7 +23,7 @@
 
 -(id)initWithWord:(NSString *)word {
 	self = [self initWithWordList:[NSArray arrayWithObject:word]];
-  self.title = [NSString stringWithFormat:@"Similar words of \"%@\"",word];
+  self.title = word;
   return self;
 }
 
